@@ -7,9 +7,9 @@ def sort(list)
 	(0..length).each do |index|
 		min = index
         
-		(index+1 ..length).each do |a|
-			if list[a] < list[min]
-				min = a
+		(index+1 ..length).each do |remaining_index|
+			if list[remainingIndex] < list[min]
+				min = remainingIndex
 			end
 		end
 
