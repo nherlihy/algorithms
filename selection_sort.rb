@@ -8,8 +8,8 @@ def sort(list)
 		min = index
         
 		(index+1 ..length).each do |remaining_index|
-			if list[remainingIndex] < list[min]
-				min = remainingIndex
+			if list[remaining_index] < list[min]
+				min = remaining_index
 			end
 		end
 
